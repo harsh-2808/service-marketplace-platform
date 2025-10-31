@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "name": "AC Repair",
+  "category": "Home Services",
+  "description": "Comprehensive air conditioner repair and gas refill service.",
+  "price": 1200,
+  "location": "Bangalore",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "createdAt": {
+    "$date": "2025-10-30T17:37:23.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T17:37:23.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904651986347104c0928ad3"
+  },
+  "name": "AC Repair",
+  "category": "AC",
+  "description": "Fixing cooling issues",
+  "price": 1000,
+  "location": "Delhi",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T07:28:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T07:32:12.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904aa9c0bec9eb479cc3364"
+  },
+  "name": "Mobile Repair",
+  "category": "Repair",
+  "description": "Mobile Repair Description",
+  "price": 2000,
+  "location": "Delhi",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T12:25:00.202Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T12:25:11.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904aacb0bec9eb479cc3369"
+  },
+  "name": "House Cleaning",
+  "category": "Cleaning",
+  "description": "House Cleaning",
+  "price": 2000,
+  "location": "Mumbai",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T12:25:47.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T12:25:47.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904e54ee4edbb77ea1310ff"
+  },
+  "name": "AC Repair",
+  "category": "cleaning",
+  "description": "AC Repair",
+  "price": 2000,
+  "location": "Pune",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T16:35:26.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T16:35:40.098Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904f9eadf96c07a443f40d5"
+  },
+  "name": "Car Wash",
+  "category": "Cleaning",
+  "description": "Car Wash",
+  "price": 500,
+  "location": "Delhi",
+  "availability": true,
+  "createdBy": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T18:03:22.952Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T18:03:22.952Z"
+  },
+  "__v": 0
+}]

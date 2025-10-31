@@ -1,0 +1,119 @@
+[{
+  "_id": {
+    "$oid": "690434d469b6e173c8c247c3"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 300,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T04:02:28.013Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T04:03:22.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690497c50dc0192fa528b57d"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1000,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T11:04:37.340Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T11:14:12.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690497f20dc0192fa528b581"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1000,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T11:05:22.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T11:14:29.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904b6e779367c2a7d54d09b"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 1000,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T13:17:27.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T15:03:43.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904d037e651c2867917c2e2"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1000,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T15:05:27.119Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T15:05:39.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904d0d7e651c2867917c2f4"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1000,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T15:08:07.080Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T15:08:26.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904f9cedf96c07a443f40d2"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 500,
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-10-31T18:02:54.247Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T18:07:27.838Z"
+  },
+  "__v": 0
+}]
