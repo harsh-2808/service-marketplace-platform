@@ -1,0 +1,553 @@
+{
+	"info": {
+		"_postman_id": "b255f8fd-02cc-459c-b4b5-fedabf88c0c5",
+		"name": "service-markeplace-platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30181087",
+		"_collection_link": "https://cloudy-desert-27742.postman.co/workspace/api~74864058-8244-432a-9140-c9dcc44a4528/collection/30181087-b255f8fd-02cc-459c-b4b5-fedabf88c0c5?action=share&source=collection_link&creator=30181087"
+	},
+	"item": [
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Harsh\",\r\n  \"email\": \"test1@gmail.com\",\r\n  \"password\": \"123\",\r\n  \"role\": \"technician\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n\"email\": \"test@gmail.com\",\r\n  \"password\": \"123\"\r\n } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "technician",
+			"item": [
+				{
+					"name": "Add Service",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"AC Repair\",\r\n  \"description\": \"Fixing cooling issues\",\r\n  \"price\": 500,\r\n  \"category\": \"AC\",\r\n  \"location\": \"Delhi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/service",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Service By Technician Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/service/:id/services",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								":id",
+								"services"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6903a1f018fd2aa4243cfbd8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Service",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"price\": 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/service/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6904651986347104c0928ad3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Technician Bookings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/service/:id/bookings",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								":id",
+								"bookings"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6903a1f018fd2aa4243cfbd8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Complete Job Booking",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/service/:id/complete",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								":id",
+								"complete"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "690494dc5608ecd4847949e8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request Withdrawl",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"technicianId\" : \"6903a1f018fd2aa4243cfbd8\",\r\n    \"amount\": 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/service/payout/request",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								"payout",
+								"request"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "customer",
+			"item": [
+				{
+					"name": "Fetch User Info",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6903a1e818fd2aa4243cfbd5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Services List",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{technician_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "category",
+								"value": "Home Services",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/users/all/services?category=AC",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"all",
+								"services"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "AC"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Book Service",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{customer_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"serviceId\": \"6903a25318fd2aa4243cfbda\",\r\n  \"customerId\": \"6903a1e818fd2aa4243cfbd5\",\r\n  \"technicianId\": \"6903a1f018fd2aa4243cfbd8\",\r\n  \"date\": \"2025-10-31\",\r\n  \"time\": \"14:30\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/users/save/booking",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"save",
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Booked Services by Customer Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{customer_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/users/get/:id/bookings",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"users",
+								"get",
+								":id",
+								"bookings"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "69031caad14ff7996de1e3f5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "Approve Technician Withdrawl",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{admin_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/admin/:id/approve",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								":id",
+								"approve"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "690497f20dc0192fa528b581"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Amount Analytics",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get Most Booked Service Category",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": ""
+		},
+		{
+			"key": "technician_token",
+			"value": ""
+		},
+		{
+			"key": "customer_token",
+			"value": ""
+		},
+		{
+			"key": "admin_token",
+			"value": ""
+		}
+	]
+}
