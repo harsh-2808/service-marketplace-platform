@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "69039e8f135aaaa3b993493d"
+  },
+  "serviceId": {
+    "$oid": "69036d780ec8dd5512e4f505"
+  },
+  "customerId": {
+    "$oid": "69031caad14ff7996de1e3f5"
+  },
+  "technicianId": {
+    "$oid": "69036d6c0ec8dd5512e4f503"
+  },
+  "amount": 500,
+  "date": "2025-10-31",
+  "time": "14:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-30T17:21:19.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T17:21:19.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69039eb89c6c50367d720f67"
+  },
+  "serviceId": {
+    "$oid": "69036d780ec8dd5512e4f505"
+  },
+  "customerId": {
+    "$oid": "69031caad14ff7996de1e3f5"
+  },
+  "technicianId": {
+    "$oid": "69036d6c0ec8dd5512e4f503"
+  },
+  "amount": 500,
+  "date": "2025-10-31",
+  "time": "14:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-30T17:22:00.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T17:22:00.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69039f0f18fd2aa4243cfbce"
+  },
+  "serviceId": {
+    "$oid": "69036d780ec8dd5512e4f505"
+  },
+  "customerId": {
+    "$oid": "69031caad14ff7996de1e3f5"
+  },
+  "technicianId": {
+    "$oid": "69036d6c0ec8dd5512e4f503"
+  },
+  "amount": 500,
+  "date": "2025-10-31",
+  "time": "14:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-30T17:23:27.988Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T17:23:27.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6903a32318fd2aa4243cfbe4"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 500,
+  "date": "2025-10-31",
+  "time": "14:00",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-10-30T17:40:51.473Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T03:57:45.395Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69045aacf1c38ae1367b8e15"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "10:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-31T06:43:56.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T06:43:56.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904945a09af58371fa78e6a"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "14:30",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-31T10:50:02.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T10:50:02.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690494dc5608ecd4847949e8"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "14:30",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-10-31T10:52:12.623Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T11:01:40.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904a0bb0bec9eb479cc333c"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "10:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-31T11:42:51.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T11:42:51.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904a5e60bec9eb479cc3357"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "10:00",
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2025-10-31T12:04:54.468Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T12:04:54.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904ab120bec9eb479cc3379"
+  },
+  "serviceId": {
+    "$oid": "6904aacb0bec9eb479cc3369"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 2000,
+  "date": "2025-10-31",
+  "time": "10:00",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-10-31T12:26:58.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T12:28:06.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904b302d561db9d665acbdd"
+  },
+  "serviceId": {
+    "$oid": "6903a25318fd2aa4243cfbda"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "amount": 1200,
+  "date": "2025-10-31",
+  "time": "14:30",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-10-31T13:00:50.801Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T13:01:30.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904fa1edf96c07a443f40e8"
+  },
+  "serviceId": {
+    "$oid": "6904f9eadf96c07a443f40d5"
+  },
+  "customerId": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "technicianId": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "amount": 500,
+  "date": "2025-10-31",
+  "time": "11:00",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-10-31T18:04:14.690Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T18:06:30.775Z"
+  },
+  "__v": 0
+}]

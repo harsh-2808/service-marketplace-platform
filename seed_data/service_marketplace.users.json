@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6903a1c418fd2aa4243cfbd2"
+  },
+  "name": "harsh",
+  "email": "harsh@gmail.com",
+  "password": "$2b$10$iPD4IyjYg9VKAb9V7tFlpOv5Q9vw.wIeHe8sBp2G/qC1nv6PycSsK",
+  "role": "technician",
+  "walletBalance": 600,
+  "createdAt": {
+    "$date": "2025-10-30T17:35:00.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T18:07:27.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6903a1e818fd2aa4243cfbd5"
+  },
+  "name": "harsh",
+  "email": "harsh1@gmail.com",
+  "password": "$2b$10$9DQEeM1vjRcDq4D9tnlZQujYTHG2I2gTXUfrOCLrTXSkLO9PRonyy",
+  "role": "customer",
+  "walletBalance": 0,
+  "createdAt": {
+    "$date": "2025-10-30T17:35:36.577Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T17:35:36.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6903a1f018fd2aa4243cfbd8"
+  },
+  "name": "harsh",
+  "email": "harsh2@gmail.com",
+  "password": "$2b$10$RPBHeISlGOOKD8WfEyIMYeRH2yrIr1Dh52hKzNLww93ICXUszHFqG",
+  "role": "admin",
+  "walletBalance": 5720,
+  "createdAt": {
+    "$date": "2025-10-30T17:35:44.872Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T18:06:30.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904636d86347104c0928acb"
+  },
+  "name": "Harsh",
+  "email": "test@gmail.com",
+  "password": "$2b$10$04lnHrIcLHDWlAlA4l8bA.1bAgsW3rsOhAl3ZyrorhdnzTe7UZ2Km",
+  "role": "technician",
+  "walletBalance": 0,
+  "createdAt": {
+    "$date": "2025-10-31T07:21:17.602Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T07:21:17.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904644f86347104c0928ad0"
+  },
+  "name": "Harsh",
+  "email": "test1@gmail.com",
+  "password": "$2b$10$B2J2IBDVd37A3tfymWXo0.BTMUUb75YCCc.5AejwAGP4H55.i/wOu",
+  "role": "technician",
+  "walletBalance": 0,
+  "createdAt": {
+    "$date": "2025-10-31T07:25:03.346Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T07:25:03.346Z"
+  },
+  "__v": 0
+}]
