@@ -189,7 +189,7 @@ export default function TechnicianDashboard() {
       {/* Sidebar */}
       <aside className="w-64 bg-blue-600 text-white flex flex-col p-6">
         <h2 className="text-2xl font-bold mb-6 text-center">Technician</h2>
-        {/* ✅ Technician Info + Wallet + Payout */}
+        {/* Technician Info + Wallet + Payout */}
         {technicianInfo && (
           <div className="bg-blue-800 p-4 rounded-lg text-center mb-6">
             <p className="text-lg font-semibold">{technicianInfo.name}</p>
