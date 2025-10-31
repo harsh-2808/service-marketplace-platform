@@ -10,6 +10,7 @@ Steps to Run the Project:
 -> Run "npm run dev" in both folder terminals to start the application.
 
 -> Credentials: (to login as per seed data)
+
 -> To run application properly, to run all three login systems at the same time run in three different browsers (for e.g ->one in chrome, one in chrome private window, one in edge)
 Technician : Email: harsh@gmail.com | Password: 123
 Customer : Email: harsh1@gmail.com | Password: 123
