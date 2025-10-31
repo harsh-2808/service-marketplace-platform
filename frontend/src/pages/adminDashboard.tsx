@@ -64,9 +64,12 @@ export default function AdminDashboard() {
   };
 
   useEffect(() => {
-    fetchAnalytics();
-    fetchPayouts();
-  }, []);
+    if (activeTab === "overview") {
+      fetchAnalytics();
+    } else if (activeTab === "approvals") {
+      fetchPayouts();
+    }
+  }, [activeTab]);
 
   if (loading && activeTab === "overview") {
     return (

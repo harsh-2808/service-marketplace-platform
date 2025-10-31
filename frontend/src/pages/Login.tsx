@@ -14,17 +14,17 @@ export default function Login() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
-  // If user is already logged in, redirect immediately
-  useEffect(() => {
-    if (user) {
-      if (user.role === "customer")
-        navigate("/customer/services", { replace: true });
-      else if (user.role === "technician")
-        navigate("/technician/dashboard", { replace: true });
-      else if (user.role === "admin")
-        navigate("/admin/dashboard", { replace: true });
-    }
-  }, [user, navigate]);
+  // // If user is already logged in, redirect immediately
+  // useEffect(() => {
+  //   if (user) {
+  //     if (user.role === "customer")
+  //       navigate("/customer/dashboard", { replace: true });
+  //     else if (user.role === "technician")
+  //       navigate("/technician/dashboard", { replace: true });
+  //     else if (user.role === "admin")
+  //       navigate("/admin/dashboard", { replace: true });
+  //   }
+  // }, [user, navigate]);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
